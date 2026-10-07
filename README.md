@@ -53,20 +53,20 @@ The standard NAND gate (the universal gate) was used as the single building bloc
 
 ### A. NAND Gate Base Case
 Verified the operation of a single 2-input NAND gate.
-* **Output:** $\text{LOW}$ only when both inputs are $\text{HIGH}$.
+* **Output:** LOW only when both inputs are HIGH.
 
-![Base 2-Input NAND Gate](Screenshot_20261007-180637_Logic Circuit Simulator Pro.png)
+![Base 2-Input NAND Gate](<Screenshot_20261007-180637_Logic Circuit Simulator Pro.png>)
 
 ### B. AND Gate Construction
 Constructed an AND gate using two 2-input NAND gates. The first NAND gate performs the standard NAND function, and its output is fed into a second NAND gate configured as an inverter (both inputs tied together).
 * **Configuration:** $A \cdot B = \overline{\overline{A \cdot B}}$
-* **Output:** $\text{HIGH}$ only when both inputs are $\text{HIGH}$.
+* **Output:** HIGH only when both inputs are HIGH.
 
-![2-NAND AND Gate](Screenshot_20261007-180644_Logic Circuit Simulator Pro.png)
+![2-NAND AND Gate](<Screenshot_20261007-180644_Logic Circuit Simulator Pro.png>)
 
 ### C. OR Gate Construction
 Constructed an OR gate using three 2-input NAND gates. Applying De Morgan's Law, the two inputs are first inverted using NAND gates, and those inverted outputs are fed into a third NAND gate.
 * **Configuration:** $A + B = \overline{\overline{A} \cdot \overline{B}}$
-* **Output:** $\text{HIGH}$ when at least one input is $\text{HIGH}$.
+* **Output:** HIGH when at least one input is HIGH.
 
-![3-NAND OR Gate](Screenshot_20261007-180657_Logic Circuit Simulator Pro.png)
+![3-NAND OR Gate](<Screenshot_20261007-180657_Logic Circuit Simulator Pro.png>)
