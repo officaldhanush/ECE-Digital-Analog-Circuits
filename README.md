@@ -47,7 +47,6 @@ An analog oscillator circuit generating a continuous square wave output to pulse
 ## 📁 Repository Structure
 ![555 Timer Flasher Circuit](Screenshot_20261007-175421_PROTO.png)
 
-
 ## 2. Universal Logic Implementation (Logic Circuit Simulator Pro)
 
 The standard NAND gate (the universal gate) was used as the single building block to construct the three fundamental logic functions.
