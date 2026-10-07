@@ -45,3 +45,4 @@ An analog oscillator circuit generating a continuous square wave output to pulse
 ---
 
 ## 📁 Repository Structure
+![555 Timer Flasher Circuit](Screenshot_20261007-175421_PROTO.png)
