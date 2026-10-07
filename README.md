@@ -61,7 +61,6 @@ Verified the operation of a single 2-input NAND gate.
 Constructed an AND gate using two 2-input NAND gates. The first NAND gate performs the standard NAND function, and its output is fed into a second NAND gate configured as an inverter (both inputs tied together).
 * **Configuration:** $A \cdot B = \overline{\overline{A \cdot B}}$
 * **Output:** HIGH only when both inputs are HIGH.
-
 ![2-NAND AND Gate](<Screenshot_20261007-180644_Logic Circuit Simulator Pro.png>)
 
 ### C. OR Gate Construction
