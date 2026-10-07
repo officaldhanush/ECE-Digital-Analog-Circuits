@@ -45,5 +45,3 @@ An analog oscillator circuit generating a continuous square wave output to pulse
 ---
 
 ## 📁 Repository Structure
-
-![Screenshot_20261007-175456_PROTO.png](https://github.com/user-attachments/assets/7ece8892-7a41-4534-8a84-c328c0d59431)
