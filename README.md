@@ -84,3 +84,20 @@ Constructed an XOR gate using 4 universal NAND gates to perform exclusive additi
   * $A=1, B=1 \implies \text{Output } 0$ (OFF)
 
 ![4-NAND XOR Gate](<Screenshot_20261008-072815_Logic Circuit Simulator Pro.png>)
+
+### B. Resistor Color Code & LED Current Limiting (Electrodoc)
+
+Calculated theoretical resistor values for physical component identification and LED protection.
+
+#### 1. Resistor Color Code Identification
+* **Bands:** Brown (1), Black (0), Red ($\times 100$), Gold ($\pm 5\%$)
+* **Decoded Value:** $1\text{ k}\Omega \pm 5\%$ ($950\,\Omega \text{ to } 1050\,\Omega$)
+
+![Resistor Color Code](<Screenshot_20261008-075415_Electrodoc.png>)
+
+#### 2. LED Series Resistor Calculation
+* **Parameters:** Supply Voltage ($V_S$) = $9\text{ V}$, Forward Voltage ($V_F$) = $2\text{ V}$, Forward Current ($I_F$) = $20\text{ mA}$
+* **Calculation:** $R = \frac{V_S - V_F}{I_F} = \frac{9\text{ V} - 2\text{ V}}{0.02\text{ A}} = 350\,\Omega$
+* **Power Dissipation:** Resistor $P(R) = 140\text{ mW}$, LED $P(\text{LED}) = 40\text{ mW}$
+
+![LED Resistor Calculation](<Screenshot_20261008-075422_Electrodoc.png>)
