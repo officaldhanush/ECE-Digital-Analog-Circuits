@@ -69,3 +69,18 @@ Constructed an OR gate using three 2-input NAND gates. Applying De Morgan's Law,
 * **Output:** HIGH when at least one input is HIGH.
 
 ![3-NAND OR Gate](<Screenshot_20261007-180657_Logic Circuit Simulator Pro.png>)
+---
+
+## 3. Day 02: Exclusive-OR (XOR) Gate Implementation
+
+Constructed an XOR gate using 4 universal NAND gates to perform exclusive addition ($A \oplus B$).
+
+### A. 4-NAND XOR Gate Construction
+* **Boolean Expression:** $Y = A \oplus B = A\overline{B} + \overline{A}B = \overline{\overline{A \cdot \overline{A \cdot B}} \cdot \overline{B \cdot \overline{A \cdot B}}}$
+* **Truth Table Verification:**
+  * $A=0, B=0 \implies \text{Output } 0$ (OFF)
+  * $A=0, B=1 \implies \text{Output } 1$ (ON)
+  * $A=1, B=0 \implies \text{Output } 1$ (ON)
+  * $A=1, B=1 \implies \text{Output } 0$ (OFF)
+
+![4-NAND XOR Gate](<Screenshot_20261008-072815_Logic Circuit Simulator Pro.png>)
