@@ -101,3 +101,9 @@ Calculated theoretical resistor values for physical component identification and
 * **Power Dissipation:** Resistor $P(R) = 140\text{ mW}$, LED $P(\text{LED}) = 40\text{ mW}$
 
 ![LED Resistor Calculation](<Screenshot_20261008-075403_Electrodoc.png>)
+
+# Day 03: Basics of Circuit Simulation
+
+## 1. Proto Simulation
+- **Observations:** Current dots flowing clockwise. LED lit up without overcurrent.
+  ![PROTO Circuit Simulation](Screenshot_20261009-073344_PROTO.png)
