@@ -114,8 +114,9 @@ Calculated theoretical resistor values for physical component identification and
 ![PROTO AC Circuit Simulation](Screenshot_20261010-064412_PROTO.png)
 
 ### 2. Logic Circuit Simulator Pro (NAND Gate as Inverter)
+
 - **Input 0 $\rightarrow$ Output 1 (Bulb ON):**
-  ![NAND Gate State 0](Screenshot_20261010-064837_Logic Circuit Simulator Pro.png)
+  ![NAND Gate State 0](Screenshot_20261010-064837_Logic%20Circuit%20Simulator%20Pro.png)
 
 - **Input 1 $\rightarrow$ Output 0 (Bulb OFF):**
-  ![NAND Gate State 1](Screenshot_20261010-064841_Logic Circuit Simulator Pro.png)
+  ![NAND Gate State 1](Screenshot_20261010-064841_Logic%20Circuit%20Simulator%20Pro.png)
