@@ -120,3 +120,28 @@ Calculated theoretical resistor values for physical component identification and
 
 - **Input 1 $\rightarrow$ Output 0 (Bulb OFF):**
   ![NAND Gate State 1](Screenshot_20261010-064841_Logic%20Circuit%20Simulator%20Pro.png)
+
+## Day 05: Parallel Circuits, Rectifiers, and XOR Gates
+
+### 1. ElectroDoc (Parallel Resistors & Power Calculation)
+- **Equivalent Resistance Calculation:**
+  ![ElectroDoc Resistance](Screenshot_20261011-062019_Electrodoc.png)
+
+- **Total Power Calculation:**
+  ![ElectroDoc Power](Screenshot_20261011-062030_Electrodoc.png)
+
+### 2. Proto (AC Half-Wave Rectifier)
+- **Observation:** The diode blocks the negative AC cycle, producing positive rectified voltage pulses across the load resistor.
+  ![Proto Rectifier](Screenshot_20261011-064226_PROTO.png)
+
+### 3. Logic Circuit Simulator Pro (XOR Gate)
+- **Truth Table Verification:**
+  | Input A | Input B | Output |
+  |---|---|---|
+  | 0 | 0 | 0 (OFF) |
+  | 0 | 1 | 1 (ON)  |
+  | 1 | 0 | 1 (ON)  |
+  | 1 | 1 | 0 (OFF) |
+
+- **XOR Gate Simulation (Inputs 0, 1 $\rightarrow$ Output ON):**
+  ![XOR Gate Simulation](Screenshot_20261011-062213_Logic%20Circuit%20Simulator%20Pro.png)
