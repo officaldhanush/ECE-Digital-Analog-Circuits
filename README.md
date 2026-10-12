@@ -145,3 +145,11 @@ Calculated theoretical resistor values for physical component identification and
 
 - **XOR Gate Simulation (Inputs 0, 1 $\rightarrow$ Output ON):**
   ![XOR Gate Simulation](Screenshot_20261011-062213_Logic%20Circuit%20Simulator%20Pro.png)
+## Day 06:Bridge Rectifiers, and SR Latches
+### 2. Proto (Full-Wave Bridge Rectifier)
+- **Observation:** The 4-diode bridge configuration successfully inverts all negative AC cycles into positive peaks, providing a continuous pulsating DC waveform across the load resistor.
+  ![Proto Bridge Rectifier](Screenshot_20261012-165233_PROTO.png)
+
+### 3. Logic Circuit Simulator Pro (SR Latch Memory Cell)
+- **Observation:** Cross-coupled NOR gates form a feedback loop that retains (latches) its digital state even after input pushbuttons/switches return to 0.
+  ![SR Latch Memory](Screenshot_20261012-085919_Logic%20Circuit%20Simulator%20Pro.png)
