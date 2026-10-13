@@ -153,3 +153,13 @@ Calculated theoretical resistor values for physical component identification and
 ### 3. Logic Circuit Simulator Pro (SR Latch Memory Cell)
 - **Observation:** Cross-coupled NOR gates form a feedback loop that retains (latches) its digital state even after input pushbuttons/switches return to 0.
   ![SR Latch Memory](Screenshot_20261012-085919_Logic%20Circuit%20Simulator%20Pro.png)
+
+## Day 07: Clocked D-Latch and Filtered DC Power Supply
+
+### 1. Proto (Capacitor Filter / Ripple Smoothing)
+- **Observation:** Adding a parallel filter capacitor (10 µF) across the load resistor successfully smoothed the pulsating DC waveform from the bridge rectifier into a steady, continuous DC voltage rail with minimal ripple.
+  ![Proto Filtered DC Power Supply](Screenshot_20261013-074835_PROTO.png)
+
+### 2. Logic Circuit Simulator Pro (Clocked D-Latch)
+- **Observation:** Integrated a clock/enable signal with gated NAND logic, allowing the circuit to selectively capture and hold data input ($D$) only when the clock is high, preventing illegal states and creating a stable memory register.
+  ![Clocked D-Latch](Screenshot_20261013-073519_Logic%20Circuit%20Simulator%20Pro.png)
