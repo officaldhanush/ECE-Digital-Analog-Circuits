@@ -163,3 +163,34 @@ Calculated theoretical resistor values for physical component identification and
 ### 2. Logic Circuit Simulator Pro (Clocked D-Latch)
 - **Observation:** Integrated a clock/enable signal with gated NAND logic, allowing the circuit to selectively capture and hold data input ($D$) only when the clock is high, preventing illegal states and creating a stable memory register.
   ![Clocked D-Latch](Screenshot_20261013-073519_Logic%20Circuit%20Simulator%20Pro.png)
+
+# Day 8: Master-Slave Edge-Triggered D Flip-Flop
+
+## Overview
+As part of my mobile-based Electronics and Communication Engineering (ECE) practical series, Day 6 focuses on transitioning from level-sensitive storage elements (latches) to edge-triggered sequential logic (flip-flops). Level-sensitive latches suffer from transparency issues and race conditions when clock signals are held high. To solve this, a **Master-Slave configuration** is implemented to ensure data is sampled and updated precisely on a specific clock edge.
+
+---
+
+## Objectives
+- Design and simulate a Master-Slave D Flip-Flop using **Logic Circuit Simulator Pro** on mobile.
+- Implement master-slave latch cascading to eliminate data transparency windows.
+- Configure clock phase inversion to achieve precise edge-triggered synchronization.
+- Verify the characteristic behavior where data is captured on the rising edge and held steady against input fluctuations.
+
+---
+
+## Circuit Simulation & Evidence
+![Master-Slave D Flip-Flop Simulation](Screenshot_20261014-083522_Logic%20Circuit%20Simulator%20Pro.png)[cite: 4]
+
+---
+
+## Circuit Architecture & Design
+
+### 1. Component Breakdown
+* **Master Latch:** Built using cross-coupled NAND gates connected to the primary Data ($D$) input and the primary Clock ($CLK$) signal.
+* **Slave Latch:** A second identical D-latch connected directly to the output of the master stage.
+* **Clock Inversion:** The primary clock signal is fed directly into the master latch, while an inverted clock signal ($\overline{CLK}$) generated via a NOT gate drives the slave latch.
+
+### 2. Data Flow Chain
+```text
+[ Data Switch (D) ] ---> [ Master Latch ] ---> [ Slave Latch ] ---> [ Output LED (Q) ]
