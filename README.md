@@ -192,6 +192,5 @@ As part of my mobile-based Electronics and Communication Engineering (ECE) pract
 * **Clock Inversion:** The primary clock signal is fed directly into the master latch, while an inverted clock signal ($\overline{CLK}$) generated via a NOT gate drives the slave latch.
 
 ### 2. Data Flow Chain
-```text
 [ Data Switch (D) ] ---> [ Master Latch ] ---> [ Slave Latch ] ---> [ Output LED (Q) ]
----
+
