@@ -201,7 +201,14 @@ As part of my mobile-based Electronics and Communication Engineering (ECE) pract
 As part of my mobile-based Electronics and Communication Engineering (ECE) practical portfolio, this module shifts focus from sequential memory elements to **combinational logic circuits**. A 2-to-1 Multiplexer acts as a digital data selector or switch, routing one of two input signals through to a single output based on the state of a select line.
 
 ---
-# Day 9: 2 to 1 Multiplexer
+---
+
+# Day 9: Combinational Logic - 2-to-1 Multiplexer (MUX)
+
+## Overview
+As part of my mobile-based Electronics and Communication Engineering (ECE) practical portfolio, this module shifts focus from sequential memory elements to **combinational logic circuits**. A 2-to-1 Multiplexer acts as a digital data selector or switch, routing one of two input signals through to a single output based on the state of a select line.
+
+---
 
 ## Objectives
 - Design and simulate a 2-to-1 Multiplexer using **Logic Circuit Simulator Pro** on mobile.
