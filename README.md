@@ -194,3 +194,4 @@ As part of my mobile-based Electronics and Communication Engineering (ECE) pract
 ### 2. Data Flow Chain
 ```text
 [ Data Switch (D) ] ---> [ Master Latch ] ---> [ Slave Latch ] ---> [ Output LED (Q) ]
+---
