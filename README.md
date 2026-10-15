@@ -194,10 +194,3 @@ As part of my mobile-based Electronics and Communication Engineering (ECE) pract
 ### 2. Data Flow Chain
 ```text
 [ Data Switch (D) ] ---> [ Master Latch ] ---> [ Slave Latch ] ---> [ Output LED (Q) ]
-
-# Combinational Logic: 2-to-1 Multiplexer (MUX)
-
-## Overview
-As part of my mobile-based Electronics and Communication Engineering (ECE) practical portfolio, this module shifts focus from sequential memory elements to **combinational logic circuits**. A 2-to-1 Multiplexer acts as a digital data selector or switch, routing one of two input signals through to a single output based on the state of a select line.
-
----
